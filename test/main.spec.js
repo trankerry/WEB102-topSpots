@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, '/../')));
 app.listen(8888);
 
-const url = 'http://localhost:8888';
+const url = "http://localhost:8888/public/index.html";
 
 var nightmare;
 
